@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  color: #2f241b;
+  background:
+    radial-gradient(circle at top, rgba(251, 191, 36, 0.18), transparent 22%),
+    linear-gradient(135deg, #fffaf5 0%, #fff4ea 45%, #fff7ee 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { min-height: 100%; }
+
+body { margin: 0; font-family: 'Poppins', 'Segoe UI', sans-serif; }
+
+button, input, textarea, select { font-family: 'Poppins', 'Segoe UI', sans-serif; }
+
+#root { min-height: 100vh; }
+
+h1, h2, p { margin: 0; }
+
+h1 {
+  font-size: clamp(2rem, 8vw, 3rem);
+  line-height: 1.05;
+  color: #2f241b;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #2f241b;
+}
